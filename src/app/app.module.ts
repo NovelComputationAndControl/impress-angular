@@ -12,7 +12,7 @@ import { ObjectivesPageComponent } from './pages/objectives-page/objectives-page
 import { ResultsPageComponent } from './pages/results-page/results-page.component';
 import { PublicationsPageComponent } from './pages/publications-page/publications-page.component';
 import { TeamPageComponent } from './pages/team-page/team-page.component';
-import { ContactComponent } from './pages/contact/contact.component';
+import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,7 @@ import { ContactComponent } from './pages/contact/contact.component';
     ResultsPageComponent,
     PublicationsPageComponent,
     TeamPageComponent,
-    ContactComponent
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,

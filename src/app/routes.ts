@@ -5,8 +5,13 @@ import {ObjectivesPageComponent} from "./pages/objectives-page/objectives-page.c
 import {ResultsPageComponent} from "./pages/results-page/results-page.component";
 import {PublicationsPageComponent} from "./pages/publications-page/publications-page.component";
 import {TeamPageComponent} from "./pages/team-page/team-page.component";
+import {ContactPageComponent} from "./pages/contact-page/contact-page.component";
 
 export const appRoutes: Routes = [
+  {
+    path: 'contact',
+    component: ContactPageComponent
+  },
   {
     path: 'objectives',
     component: ObjectivesPageComponent
