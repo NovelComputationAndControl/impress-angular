@@ -3,3 +3,21 @@
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+@media only screen and (min-width: 600px) {
+  .jumbotron-logo {
+    background-image: url('../../../assets/images/upt.gif'), url('../../../assets/images/uefiscdi.png');
+    background-position: right top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 30% 30%, 30% 30%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .jumbotron-logo {
+    background-image: url('../../../assets/images/upt.gif'), url('../../../assets/images/uefiscdi.png');
+    background-position: right top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, 30% 40%;
+  }
+}

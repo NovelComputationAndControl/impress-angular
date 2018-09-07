@@ -32,7 +32,7 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
     NgbModule,
     RouterModule.forRoot(
       appRoutes,
-      { enableTracing: true } // <-- debugging purposes only
+      { enableTracing: false } // <-- debugging purposes only
     )
   ],
   providers: [],
